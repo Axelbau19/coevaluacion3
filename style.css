@@ -1,0 +1,95 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #f2f2f2;
+  color: #938F8A;
+  font-family: "Quicksand", sans-serif;
+  padding: 0 1.5em;
+}
+
+.contenedor {
+  max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1.5em;
+}
+
+.encabezado {
+  text-align: center;
+  font-size: 3em;
+  color: #20BDE2;
+}
+
+
+.calculadoraIMContenedor {
+  box-shadow: 0 0 20px rgb(169, 228, 242, 0.3);
+}
+
+.calculadoraIMContenedor > * {
+  padding: 1em;
+}
+
+.formularioCalculadora {
+  background: #f2f2f2;
+}
+.formularioCalculadora h3{
+  text-align: center;
+}
+
+.formularioCalculadora form {
+  display: grid;
+}
+.formularioCalculadora form input {
+  width: 40%;
+  padding: 0.7em;
+  border-color: #a1c5dd;
+  background: none;
+  outline: 0;
+  color: #a7e4f2;
+  border: 2px solid;
+  
+}
+
+.container{
+  width: 95%;
+  display: flex;
+  justify-content: center;
+  
+}
+
+.formularioCalculadora form button {
+  color: #a7e4f2;
+  border-color: #a7e4f2;
+  background: white;
+  text-transform: uppercase;
+  padding: 1em;
+  border-radius: 20px;
+  border: 2px solid;
+  
+  
+}
+
+.formularioCalculadora form button:hover,
+.formularioCalculadora form button:focus {
+  background: #a1c5dd;
+}
+
+#resultadoIMC{
+  text-align: center;
+  padding-right: 5%;
+}
+
+.formularioCalculadora #resultadoIMC input{
+  width: 8%;
+  color: black ;
+  border-color: #2CBADE;
+  text-align: center;
+}
+
+#mensajeOculto{
+  color: #447083;
+  font-size:large;
+  font-weight: bold;
+}
